@@ -1,29 +1,75 @@
 /* --- Main Styles --- */
-/* --- Navigation --- */
-/* --- Layout --- */
 
 body	{
-	width: center;
-	margin: auto;
+	width: auto;
+	margin: 10px;
 	font-family: georgia, Times, serif;
 	background-color: #ddf5f9;
+	border: 1px black;
+	border-radius: 50px;
+	box-shadow: 1px 0px 0px black;
 }
 
 #top	{
 	width: auto;
 	height: auto;
 	padding: 2px;
-	border: 1px outset black;
-	margin: 5px;
+	border: 1px black;
+	margin: 25px;
 }
+
+#dogs	{
+	width: auto;
+	height: auto;
+	padding: 2px;
+	border: 1px black;
+	margin: 5px 25px;
+}
+
+#origin, #biology, #diet	{
+	width: auto;
+	height: auto;
+	padding: 2px;
+	border: 1px black;
+	margin: 5px 25px;
+	text-align: center;
+	 
+}
+
+#resource	{
+	text-align: center;
+}
+
+/* --- Navigation --- */
 
 ul	{
 	list-style-type: upper-roman;
+	display: inline-block;
 }
 
 ol	{
 	list-style-type: circle;
+	display: inline-block;
 }
+
+a:link	{
+	color: blue;
+}
+
+a:visited	{
+	color: #088f08;
+}
+
+a:hover	{
+	color: #ff0005;
+}
+
+a:active	{
+	color: red;
+}
+
+
+/* --- Layout --- */
 
 h1	{
 	text-shadow: 2px 2px #000000;
@@ -35,4 +81,9 @@ h2, h3	{
 	font-size: large;
 	font-weight: bold;
 	font-style: italic;
+}
+
+p	{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255, 48, 0, 0.61);
 }
