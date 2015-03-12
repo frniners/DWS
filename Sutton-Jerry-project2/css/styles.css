@@ -1,0 +1,38 @@
+/* --- Main Styles --- */
+/* --- Navigation --- */
+/* --- Layout --- */
+
+body	{
+	width: center;
+	margin: auto;
+	font-family: georgia, Times, serif;
+	background-color: #ddf5f9;
+}
+
+#top	{
+	width: auto;
+	height: auto;
+	padding: 2px;
+	border: 1px outset black;
+	margin: 5px;
+}
+
+ul	{
+	list-style-type: upper-roman;
+}
+
+ol	{
+	list-style-type: circle;
+}
+
+h1	{
+	text-shadow: 2px 2px #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2, h3	{
+	font-size: large;
+	font-weight: bold;
+	font-style: italic;
+}
