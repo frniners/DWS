@@ -11,7 +11,7 @@
 	text-shadow: 2px 2px #000000;
 	font-weight: bold;
 	text-align: center;
-	background-image: url("images/foxtail.png");
+	background-image: url("../images/foxtail.png");
 	background-position: no-repeat;
 	
 }
@@ -23,7 +23,7 @@
 	border-style: solid;
 	border-radius: 5px;
 	text-align: center;
-	background-image: url("images/foxtail.png");
+	background-image: url("../images/foxtail.png");
 	background-repeat: repeat;
 }
 
@@ -33,7 +33,7 @@
 	border: 1px #070707;
 	border-style: solid;
 	border-radius: 5px;
-	background-image: url("images/foxtail.png");
+	background-image: url("../images/foxtail.png");
 	background-repeat: repeat;
 }
 
@@ -45,7 +45,7 @@
 	border: 1px #070707;
 	border-style: solid;
 	border-radius: 5px;
-	background-image: url("images/foxtail.png");
+	background-image: url("../images/foxtail.png");
 	background-repeat: repeat;
 }
 
@@ -58,7 +58,7 @@
 	border: 1px #070707;
 	border-style: solid;
 	border-radius: 5px;
-	background-image: url("images/foxtail.png");
+	background-image: url("../images/foxtail.png");
 	background-repeat: repeat;
 }
 
@@ -71,12 +71,13 @@
 	border: 1px #070707;
 	border-style: solid;
 	border-radius: 5px;
-	background-image: url("images/foxtail.png");
-	background-repeat: repeat;
 	font-size: .8em;
 	font-weight: bold;
 	text-align: center;
-	background: #1e5799; 
+	background: -webkit-linear-gradient(left, red , blue); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, red , blue); /* Standard syntax */ 
 }
 
 
@@ -89,7 +90,7 @@ body	{
 	font-family: georgia, Times, serif;
 	background-color: #ddf5f9;
 	padding: 2px;
-	background-image: url("images/simple-scales.gif");
+	background-image: url("../images/simple-scales.gif");
 	background-repeat: repeat;
 }
 
