@@ -1,6 +1,6 @@
 /* --- Three Column Layout --- */
 
-#header	{
+header	{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,7 +16,7 @@
 	
 }
 
-#navbar	{
+nav	{
 	width: 100%;
 	margin: 2%;
 	border: 1px #070707;
@@ -27,7 +27,7 @@
 	background-repeat: repeat;
 }
 
-#feature	{
+section	{
 	width: 100%;
 	margin: 2%;
 	border: 1px #070707;
@@ -37,7 +37,7 @@
 	background-repeat: repeat;
 }
 
-#column1, #column2, #column3	{
+aside, #column2, #column3	{
 	width: 31.3%;
 	padding: 2px 0px;
 	float: left;
@@ -62,7 +62,7 @@
 	background-repeat: repeat;
 }
 
-#footer	{
+footer	{
 	width: 100%;
 	padding: 2px 0px;
 	float: left;
@@ -125,7 +125,7 @@ body	{
 
 /* --- Navigation --- */
 
-#navbar li {
+nav li {
     display: inline;
 }
 
