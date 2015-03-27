@@ -1,0 +1,218 @@
+/* --- Three Column Layout --- */
+
+#header	{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	border: 1px #070707;
+	border-radius: 5px;
+	font-size: 5em;
+	text-shadow: 2px 2px #000000;
+	font-weight: bold;
+	text-align: center;
+	background-image: url("../images/foxtail.png");
+	background-position: center top;
+	
+}
+
+#navbar	{
+	width: 100%;
+	margin: 2%;
+	border: 1px #070707;
+	border-style: solid;
+	border-radius: 5px;
+	text-align: center;
+	background-image: url("../images/foxtail.png");
+	background-repeat: repeat;
+}
+
+#feature	{
+	width: 100%;
+	margin: 2%;
+	border: 1px #070707;
+	border-style: solid;
+	border-radius: 5px;
+	background-image: url("../images/foxtail.png");
+	background-repeat: repeat;
+}
+
+#column1, #column2, #column3	{
+	width: 31.3%;
+	padding: 2px 0px;
+	float: left;
+	margin: .5%;
+	border: 1px #070707;
+	border-style: solid;
+	border-radius: 5px;
+	background-image: url("../images/foxtail.png");
+	background-repeat: repeat;
+}
+
+#gallery	{
+	width: 100%;
+	padding: 2px 0px;
+	float: left;
+	clear: both;
+	margin: 2%;
+	border: 1px #070707;
+	border-style: solid;
+	border-radius: 5px;
+	background-image: url("../images/foxtail.png");
+	background-repeat: repeat;
+}
+
+#footer	{
+	width: 100%;
+	padding: 2px 0px;
+	float: left;
+	clear: both;
+	margin: 2%;
+	border: 1px #070707;
+	border-style: solid;
+	border-radius: 5px;
+	font-size: .8em;
+	font-weight: bold;
+	text-align: center;
+	background: -webkit-linear-gradient(left, red , blue); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, red , blue); /* Standard syntax */ 
+}
+
+
+
+/* --- Main Styles --- */
+
+body	{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 1%;
+	font-family: georgia, Times, serif;
+	background-color: #ddf5f9;
+	padding: 2px;
+	background-image: url("../images/simple-scales.gif");
+	background-repeat: repeat;
+}
+
+#top	{
+	width: 100%;
+	height: auto;
+	padding: 2px;
+	border: 1px #070707;
+	margin: 25px;
+}
+
+#dogs	{
+	width: 100%;
+	height: auto;
+	padding: 2px;
+	border: 1px #070707;
+	margin: 5px 25px;
+}
+
+#origin, #biology, #diet	{
+	width: 100%;
+	height: auto;
+	padding: 2px;
+	border: 1px #070707;
+	margin: 1%;
+	text-align: center;
+	 
+}
+
+
+/* --- Navigation --- */
+
+#navbar li {
+    display: inline;
+}
+
+ol	{
+	list-style-type: circle;
+}
+
+a:link	{
+	color: #0000fd;
+}
+
+a:visited	{
+	color: #088f08;
+}
+
+a:hover	{
+	color: #ff0005;
+}
+
+a:active	{
+	color: #ec1313;
+}
+
+
+/* --- Layout --- */
+
+#column1, #column2, #column3	{
+	font-size: .8em;
+	font-weight: bold;
+	text-align: center;
+}
+
+p	{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255, 48, 0, 0.61);
+	line-height: normal;
+}
+
+/* --- Table --- */
+
+table	{
+	background-color: #fffcfc;
+	background-position: center top;
+	width: 100%;
+	padding: 2px 2px;
+	float: left;
+	clear: both;
+	margin: 2%;
+	font-size: 1em;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	
+}
+
+th	{
+	text-align: left;
+	text-transform: uppercase;
+}
+
+tr:hover {
+	background-color: #55e5ff;
+}
+
+/* --- Form --- */
+
+form	{
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 2px 2px;
+	margin: 2%;
+	font-size: 1em;
+	color: rgba(255, 48, 0, 0.61);
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	text-align: left;
+	background-image: url("../images/foxtail.png");
+}
+
+input:hover {
+	background-color: #55e5ff;
+}
+
+textarea:hover	{
+	background-color: #55e5ff; 
+}
+
+input:focus	{
+	border: 1px solid #ff0000;
+}
